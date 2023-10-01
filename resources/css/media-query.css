@@ -66,6 +66,12 @@
 	body {
 		font-size:10px;
 	}
+	header{
+        width: 100%;
+        position: relative;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0 0 0 / 0)),
+     url("img/header2.png") no-repeat center;
+    }
 
 	.header-text-box {
 		margin-bottom:50px;
@@ -97,6 +103,12 @@
 
 /* smaller to larger mobile phones*/
 @media only screen and (max-width:480px) {
+	header{
+        width: 100%;
+        position: relative;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0 0 0 / 0)),
+     url("img/header1.png") no-repeat center;
+    }
 	.laptop-image {
 		padding:0;
 		margin:0 auto;
